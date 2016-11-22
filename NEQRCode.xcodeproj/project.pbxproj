@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		16C15CE71DE4870F008BF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15CE61DE4870F008BF0C4 /* main.m */; };
 		16C15CEA1DE4870F008BF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15CE91DE4870F008BF0C4 /* AppDelegate.m */; };
-		16C15CED1DE4870F008BF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15CEC1DE4870F008BF0C4 /* ViewController.m */; };
 		16C15CF01DE4870F008BF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C15CEE1DE4870F008BF0C4 /* Main.storyboard */; };
 		16C15CF21DE4870F008BF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C15CF11DE4870F008BF0C4 /* Assets.xcassets */; };
 		16C15CF51DE4870F008BF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C15CF31DE4870F008BF0C4 /* LaunchScreen.storyboard */; };
+		16C15D011DE4873A008BF0C4 /* QRCodeViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15CFE1DE4873A008BF0C4 /* QRCodeViewC.m */; };
+		16C15D021DE4873A008BF0C4 /* NEQRPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15D001DE4873A008BF0C4 /* NEQRPreview.m */; };
+		16C15D041DE48914008BF0C4 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C15D031DE48914008BF0C4 /* line.png */; };
+		16C15D061DE4891C008BF0C4 /* pick_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C15D051DE4891C008BF0C4 /* pick_bg.png */; };
+		16C15D091DE489B5008BF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C15D081DE489B5008BF0C4 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		16C15CE61DE4870F008BF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16C15CE81DE4870F008BF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16C15CE91DE4870F008BF0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16C15CEB1DE4870F008BF0C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16C15CEC1DE4870F008BF0C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		16C15CEF1DE4870F008BF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16C15CF11DE4870F008BF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16C15CF41DE4870F008BF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16C15CF61DE4870F008BF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C15CFD1DE4873A008BF0C4 /* QRCodeViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewC.h; sourceTree = "<group>"; };
+		16C15CFE1DE4873A008BF0C4 /* QRCodeViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewC.m; sourceTree = "<group>"; };
+		16C15CFF1DE4873A008BF0C4 /* NEQRPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEQRPreview.h; sourceTree = "<group>"; };
+		16C15D001DE4873A008BF0C4 /* NEQRPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEQRPreview.m; sourceTree = "<group>"; };
+		16C15D031DE48914008BF0C4 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		16C15D051DE4891C008BF0C4 /* pick_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_bg.png; sourceTree = "<group>"; };
+		16C15D071DE489B5008BF0C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16C15D081DE489B5008BF0C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,11 @@
 		16C15CE41DE4870F008BF0C4 /* NEQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				16C15CFC1DE48725008BF0C4 /* NEQRCode */,
 				16C15CE81DE4870F008BF0C4 /* AppDelegate.h */,
 				16C15CE91DE4870F008BF0C4 /* AppDelegate.m */,
-				16C15CEB1DE4870F008BF0C4 /* ViewController.h */,
-				16C15CEC1DE4870F008BF0C4 /* ViewController.m */,
+				16C15D071DE489B5008BF0C4 /* ViewController.h */,
+				16C15D081DE489B5008BF0C4 /* ViewController.m */,
 				16C15CEE1DE4870F008BF0C4 /* Main.storyboard */,
 				16C15CF11DE4870F008BF0C4 /* Assets.xcassets */,
 				16C15CF31DE4870F008BF0C4 /* LaunchScreen.storyboard */,
@@ -77,6 +88,19 @@
 				16C15CE61DE4870F008BF0C4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16C15CFC1DE48725008BF0C4 /* NEQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				16C15CFD1DE4873A008BF0C4 /* QRCodeViewC.h */,
+				16C15CFE1DE4873A008BF0C4 /* QRCodeViewC.m */,
+				16C15CFF1DE4873A008BF0C4 /* NEQRPreview.h */,
+				16C15D001DE4873A008BF0C4 /* NEQRPreview.m */,
+				16C15D031DE48914008BF0C4 /* line.png */,
+				16C15D051DE4891C008BF0C4 /* pick_bg.png */,
+			);
+			name = NEQRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C15D041DE48914008BF0C4 /* line.png in Resources */,
 				16C15CF51DE4870F008BF0C4 /* LaunchScreen.storyboard in Resources */,
 				16C15CF21DE4870F008BF0C4 /* Assets.xcassets in Resources */,
 				16C15CF01DE4870F008BF0C4 /* Main.storyboard in Resources */,
+				16C15D061DE4891C008BF0C4 /* pick_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C15CED1DE4870F008BF0C4 /* ViewController.m in Sources */,
+				16C15D011DE4873A008BF0C4 /* QRCodeViewC.m in Sources */,
 				16C15CEA1DE4870F008BF0C4 /* AppDelegate.m in Sources */,
+				16C15D021DE4873A008BF0C4 /* NEQRPreview.m in Sources */,
 				16C15CE71DE4870F008BF0C4 /* main.m in Sources */,
+				16C15D091DE489B5008BF0C4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
